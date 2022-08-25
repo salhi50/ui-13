@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- BASICS HTML5 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- scss -->
+  <link rel="stylesheet" href="scss/begin.css">
+  <!-- ion icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Jquery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- GOOGLE ICONS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <!-- BOOTSTRAP v5.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="js/script.js"></script>
+  <title>Bootstrap</title>
+</head>
+  <body>
+    <div id="wrapper" class="d-flex">
+      <aside id="black--aside" class="d-none flex-shrink-0 d-lg-block position-sticky align-self-start">
+        <ul class="d-flex pt-2 pb-3 flex-column align-items-center justify-content-between">
+          <!-- TOP ASIDE -->
+          <li class="top--aside pb-5">
+            <a href="#" class="logo my-3 mx-auto rounded-circle"></a>
+            <a href="#" class="aside--item py-3 px-4"><ion-icon class="aside--icon" name="grid"></ion-icon></a>
+            <a href="#" class="aside--item py-3 px-4"><ion-icon class="aside--icon" name="people"></ion-icon></a>
+            <a href="#" class="aside--item py-3 px-4"><ion-icon class="aside--icon" name="document-text"></ion-icon></a>
+            <a href="#" class="aside--item py-3 px-4"><ion-icon class="aside--icon" name="stats-chart"></ion-icon></a>
+            <a href="#" class="aside--item py-3 px-4"><span class="material-symbols-outlined aside--icon">swap_vert</span></a>
+            <a href="#" class="aside--item py-3 px-4"><ion-icon class="aside--icon" name="download-outline"></ion-icon></a>
+          </li>
+          <!-- BOTTOM ASIDE -->
+          <li class="aside--bottom">
+            <a href="#" class="aside--item py-3 px-4"><ion-icon name="mail" class="aside--icon"></ion-icon></a>
+            <a href="#" class="aside--item py-3 px-4"><ion-icon name="call" class="aside--icon"></ion-icon></a>
+            <a href="#" class="aside--item py-3 px-4 active"><ion-icon name="settings" class="aside--icon"></ion-icon></a>
+            <a href="#" class="aside--profil text-center pt-4"><img src="imgs/profil.jpg" class="aside--avatar rounded-3 " alt=""></a>
+          </li>
+        </ul>
+      </aside>
+      <aside id="white--aside" class="d-none d-xl-block flex-shrink-0  position-sticky align-self-start">
+        <div class="aside--title d-flex align-items-center p-3">
+          <div class="main--icon main-small-icon cursor"><ion-icon name="chevron-back-outline"></ion-icon></div>
+          <h6 class="ps-3">Settings</h6>
+        </div>
+        <div class="aside--section py-4">
+          <div class="aside--subtitle">
+            <ion-icon name="home"></ion-icon>
+            <span>General Settings</span>
+          </div>
+          <div class="aside--links">
+            <a href="#" class="aside--link py-2">General Details</a>
+            <a href="#" class="aside--link py-2">User Permissions</a>
+            <a href="#" class="aside--link py-2">Billing</a>
+            <a href="#" class="aside--link py-2">Payments</a>
+            <a href="#" class="aside--link py-2">Shipping</a>
+            <a href="#" class="aside--link py-2">Markets</a>
+          </div>
+        </div>
+        <div class="aside--section pb-4">
+          <div class="aside--subtitle">
+            <ion-icon name="person"></ion-icon>
+            <span>Personal Settings</span>
+          </div>
+          <div class="aside--links">
+            <a href="#" class="aside--link py-2">Plans</a>
+            <a href="#" class="aside--link py-2">Notifications</a>
+            <a href="#" class="aside--link py-2">Domain</a>
+            <a href="#" class="aside--link py-2">Languages</a>
+          </div>
+        </div>
+      </aside>
+      <main class="flex-grow-1">
+        <header class="position-sticky top-0 bg-white px-md-4 px-3">
+          <ul class="header--list d-md-flex d-block align-items-center justify-content-between">
+            <li class="header--left">
+              <!-- header left -->
+              <div class="search m-md-0 mx-auto">
+                <ion-icon name="search" class="search--icon position-absolute"></ion-icon>
+                <input type="search" name="" id="" class="search-input rounded-3" placeholder="Type to search...">
+              </div>
+            </li>
+            <!-- header right -->
+            <li class="header--right d-md-flex d-none align-items-center">
+              <div class="main--icon main-big-icon me-2"><ion-icon name="notifications"></ion-icon></div>
+              <div class="main--icon main-big-icon"><ion-icon name="help"></ion-icon></div>
+            </li>
+          </ul>
+        </header>
+        <article class="main--content px-md-4 px-3 py-4 mx-auto">
+          <section class="up--section d-flex align-items-center justify-content-between mb-4">
+            <div class="left--section pe-md-2 p-0">
+              <h5 class="big--title">General Details</h5>
+              <p class="mid--text mt-1">Update your photo and personal details here.</p>
+            </div>
+            <div class="right--section d-none d-md-block">
+              <button class="btn me-1 secondary--btn">Cancel</button>
+              <button class="btn main--btn">Save</button>
+            </div>
+          </section>
+          <section class="main--section row">
+            <div class="col-lg-8">
+              <div class="frame me-md-2 bg-white rounded-3">
+                <h6 class="frame--title p-3">Personal Information</h6>
+                <div class="frame--content p-3">
+                  <label for="" class="label--input">Full Name</label>
+                  <div class="inputs-group row">
+                    <div class="col-md-6 pe-md-0">
+                      <input type="text" class="mid--input main--input w-100 rounded-3" name="" id="" placeholder="First Name">
+                    </div>
+                    <div class="col-md-6 m-md-0 mt-2">
+                      <input type="text" class="mid--input main--input w-100 rounded-3" name="" id="" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="inputs-group">
+                    <label for="" class="label--input">Email Adress</label>
+                    <div class="input--container position-relative">
+                      <ion-icon name="at" class="left--icon-abs at--icon"></ion-icon>
+                      <input type="text" class="main--input w-100 rounded-3 input--abs-left input--abs-right" placeholder="Email">
+                      <ion-icon name="checkmark-circle" class="right--icon-abs check--icon"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="inputs-group">
+                    <label for="" class="label--input">Username</label>
+                    <div class="d-flex">
+                      <div class="link--user px-3 d-flex align-items-center justify-content-center">
+                        <ion-icon name="link" class="link--incline small--icon"></ion-icon>
+                        <span class="ps-2">Pain.com/</span>
+                      </div>
+                      <div class="position-relative flex-grow-1">
+                        <input type="text" class="w-100 user--input main--input input--abs-right" placeholder="Username">
+                        <ion-icon name="checkmark-circle" class="right--icon-abs check--icon"></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inputs-group">
+                    <label for="" class="label--input">Bio</label>
+                    <span class="subtitle--input">(Write a short introduction)</span>
+                    <div class="d-flex align-items-md-center flex-md-row flex-column">
+                      <select class="form-select main--input ps-0 select">
+                        <option value="1">Normal text</option>
+                      </select>
+                      <div class="icons-ctrl d-flex align-items-center justify-content-md-start justify-content-end flex-wrap ms-2 mt-2 m-md-0">
+                        <span class="material-symbols-outlined ctrl--icon">format_bold</span>
+                        <span class="material-symbols-outlined italic--icon ctrl--icon">format_italic</span>
+                        <span class="material-symbols-outlined italic--icon ctrl--icon">link</span>
+                        <span class="material-symbols-outlined italic--icon ctrl--icon">format_list_bulleted</span>
+                        <span class="material-symbols-outlined italic--icon ctrl--icon">format_list_numbered</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inputs-group">
+                    <textarea class="main--input w-100 rounded-3" placeholder="Bio"></textarea>
+                  </div>
+                  <div class="inputs-group">
+                    <label for="" class="label--input">Timezone</label>
+                    <div class="position-relative">
+                      <ion-icon name="time-outline" class="small--icon abs-icon-left"></ion-icon>
+                      <input type="text" disabled id="" class="w-100 main--input rounded-3 input--abs-left input--abs-right" value="Pacific Standard Time">
+                      <ion-icon name="chevron-down" class="small--icon right--icon-abs"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 m-md-0 mt-3 p-md-0">
+              <div class="frame bg-white rounded-3">
+                <h6 class="frame--title small--title p-3">Your photo</h6>
+                <div class="frame--content p-3 m-0">
+                  <div class="d-flex align-items-center">
+                    <img src="imgs/profil.jpg" class="avatar--img flex-shrink-0 rounded-circle" alt="">
+                    <div class="ps-3">
+                      <h6 class="x-small-title">Edit Your photo</h6>
+                      <span class="delete pe-1">Delete</span>
+                      <span class="update">Update</span>
+                    </div>
+                  </div>
+                  <div class="upload-cloud text-center mt-3 p-md-3 p-4">
+                    <ion-icon name="cloud-upload-outline" class="small--icon"></ion-icon>
+                    <p class="small-text mt-2"><span>Click to upload</span> or drag and drop SVG, PNG, JPG or GIF (max 800×600px)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="frame bg-white rounded-3 py-1 px-3 mt-3 overflow-hidden">
+                <div class="d-flex align-items-center justify-content-between">
+                  <img src="imgs/google.png" class="google" alt="">
+                  <button class="connect-btn btn">Connected</button>
+                </div>
+                <div class="frame--cont">
+                  <h5 class="mid--title" style="font-weight: 500 !important;">Google</h5>
+                  <p class="small-text dark--grey mt-2">Use Google to sign in to your account. <span>Click here to learn more.</span></p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
